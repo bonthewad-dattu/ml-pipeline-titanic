@@ -1,0 +1,25 @@
+data:
+  raw_data_path: "data/raw/titanic.csv"
+  cleaned_data_path: "data/processed/cleaned_data.csv"
+  processed_data_path: "data/processed/feature_engineered_data.csv"
+
+model:
+  test_size: 0.2
+  random_state: 42
+  models_to_train: ["random_forest", "logistic_regression", "xgboost"]
+  cv_folds: 5
+
+features:
+  numerical: ["Age", "Fare", "SibSp", "Parch"]
+  categorical: ["Pclass", "Sex", "Embarked"]
+  target: "Survived"
+
+cleaning:
+  missing_threshold: 0.5
+  outlier_method: "iqr"
+  iqr_multiplier: 1.5
+
+deployment:
+  host: "0.0.0.0"
+  port: 5000
+  debug: false
