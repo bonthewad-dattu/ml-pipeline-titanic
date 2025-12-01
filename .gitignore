@@ -1,19 +1,12 @@
-# Python
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
-# Environment
 .env
 venv/
 env/
-
-# IDE
 .vscode/
 .idea/
-
-# Generated files
 *.pkl
 *.csv
 *.txt
@@ -21,3 +14,8 @@ eda_plots/
 best_model.pkl
 model_comparison.csv
 features.txt
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
