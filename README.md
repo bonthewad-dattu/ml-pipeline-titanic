@@ -1,15 +1,16 @@
-# Titanic Survival Prediction - Complete ML Pipeline
+# Titanic Survival Prediction ML Pipeline
 
-A complete end-to-end machine learning pipeline for predicting Titanic passenger survival.
+Complete end-to-end machine learning pipeline for Titanic passenger survival prediction.
 
 ## Features
-- Complete data cleaning and preprocessing
-- Exploratory Data Analysis with 7+ visualizations
+- Data cleaning and preprocessing
+- Exploratory Data Analysis (EDA) with visualizations
 - Feature engineering (24 engineered features)
 - Model training (Logistic Regression, Random Forest, Decision Tree)
-- Flask web deployment
-- REST API endpoints
+- Flask web application deployment
 
-## Installation
+## How to Run
+
+### 1. Install dependencies:
 ```bash
 pip install -r requirements.txt
